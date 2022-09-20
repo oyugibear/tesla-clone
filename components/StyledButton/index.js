@@ -5,7 +5,7 @@ import styles from './styles'
 const StyledButton = (props) => {
 
     // const type = props.type;
-    console.warn(type);
+    // console.warn(type);
 
     const {type, content, onPress } = props;
     const backgroundColor = type === 'primary' ? '#171a20cc' : '#ffffffa6';
